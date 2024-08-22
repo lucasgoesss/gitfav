@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitFav</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="app">
+        <header>
+            <h1><span>{★}</span> GitFav</h1>
+            <div class="search">
+                <input type="text" id="usernameInput" placeholder="Digite o Github username que quer favoritar">
+                <button id="addButton">⭐ Favoritar</button>
+            </div>
+        </header>
+        <main>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Usuário</th>
+                        <th>Repositórios</th>
+                        <th>Followers</th>
+                        <th>Ação</th>
+                    </tr>
+                </thead>
+                <tbody id="userList">
+                    <!-- Os usuários favoritados serão adicionados aqui -->
+                </tbody>
+            </table>
+        </main>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
